@@ -1,0 +1,31 @@
+{
+    "name": "dharma-python-lib",
+    "version": "0.0.1",
+    "description": "A simple npm cli/tool project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node fix_cmd.js"
+    },
+    "bin": {
+        "dharma-python-lib": "./cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SubHeaven/dharma-python-lib.git"
+    },
+    "author": {
+        "name": "SubHeaven",
+        "email": "subheaven.paulo@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SubHeaven/dharma-python-lib/issues"
+    },
+    "homepage": "https://github.com/SubHeaven/dharma-python-lib#readme",
+    "dependencies": {
+        "debug": "^4.3.1",
+        "subheaven-arg": "^0.2.6",
+        "subheaven-tools": "^0.1.13"
+    }
+}
